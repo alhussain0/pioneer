@@ -195,6 +195,16 @@ body {
     color: var(--primary-color);
 }
 
+.contact-info a {
+    color: inherit; /* Inherit the color from the parent element */
+    text-decoration: none; /* Remove underline */
+}
+
+.contact-info a:hover {
+    color: #007BFF; /* Optional: Change color when hovered, or remove this line for no hover effect */
+}
+
+
 /* Social Media */
 .social-media {
     margin-top: 30px;
